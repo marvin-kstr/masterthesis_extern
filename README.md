@@ -21,7 +21,6 @@ The central contribution of this work consists of two algorithms:
 
 It is demonstrated that the resulting fully discrete approximation converges to the infinite-dimensional solution of the SPDE. For suitable choices of `N` and `M`, a strong convergence rate of approximately `1/3` relative to the computational cost `K = M * N` is achieved.
 
----
 
 ### 2. Semilinear Replacement Method
 
@@ -30,7 +29,6 @@ This method extends the truncation approach:
 - Rather than truncating higher spatial dimensions, they are replaced by independent, identically distributed, centered Gaussian random variables.
 - This construction uses the representation of the solution in terms of Ornstein–Uhlenbeck processes.
 
----
 
 ## Numerical Evaluation
 
@@ -46,15 +44,12 @@ The numerical results indicate that:
 - It yields **higher accuracy at identical computational cost**
 - It requires **fewer spatial dimensions** to satisfy predefined error thresholds
 
----
 
 ## Key Takeaways
 
 - Efficient discretization is essential for the simulation of SPDEs  
 - Spectral methods combined with exponential integrators provide robust convergence properties  
 - The stochastic replacement of higher dimensions can significantly enhance computational efficiency compared to the truncation method.
-
----
 
 ---
 
